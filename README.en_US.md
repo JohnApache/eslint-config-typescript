@@ -20,42 +20,42 @@
 - [English](README.en_US.md)
 - [简体中文](README.md)
 
-> 该配置为eslint针对**Typescript**项目的通用配置, 适用于任何项目的基础配置, 提供了好看的自动修复效果
+> This configuration is the general configuration of eslint for **Typescript** project, which is applicable to any basic configuration of the project, and provides a good automatic repair effect.
 
-- [安装](#安装)
-- [配置](#配置)
-- [注意](#注意)
-- [建议](#建议)
+- [Install](#install)
+- [Configuration](#configuration)
+- [TIPS](#tips)
+- [Questions](#questions)
 - [License](#license)
 
-## 安装
-
+## Install
 ```bash
 $ npx install-peerdeps --dev @dking/eslint-config-typescript
 ```
 
-## 配置
+## Configuration
 
 ```js
 // .eslintrc.js
 module.exports = {
-    extends: [ '@dking/typescript' ],
+    extends: [ '@dking/base' ],
     rules: {
 
     }
 }
 ```
 
-## 注意
-> 可以针对不同类型项目使用不同的eslint-config，以获得更好的体验
+## TIPS
 
-- 只需要基础配置的项目可以使用 [@dking/eslint-config-typescript](https://github.com/JohnApache/eslint-config-base)
-- 使用**Typescript**项目可以使用 [@dking/eslint-config-typescript](https://github.com/JohnApache/eslint-config-typescript)
-- 使用**React**项目可以使用 [@dking/eslint-config-react](https://github.com/JohnApache/eslint-config-react)
-- 使用**Typescript**和**React**的项目可以使用 [@dking/eslint-config-typescript-react](https://github.com/JohnApache/eslint-config-typescript-react)
+> You can use different eslint config for different types of projects to get a better experience
 
-## 建议
-欢迎创建issue 或者 pr [here](https://github.com/JohnApache/eslint-config-typescript/issues).
+- Only projects requiring basic configuration can use [@dking/eslint-config-typescript](https://github.com/JohnApache/eslint-config-base)
+- Projects using **Typescript** can use [@dking/eslint-config-typescript](https://github.com/JohnApache/eslint-config-typescript)
+- Projects that use **React** can use [@dking/eslint-config-react](https://github.com/JohnApache/eslint-config-react)
+- Projects that use **Typescript** and **React** can use [@dking/eslint-config-typescript-react](https://github.com/JohnApache/eslint-config-typescript-react)
+
+## Questions
+Please open an issue [here](https://github.com/JohnApache/eslint-config-typescript/issues).
 
 ## License
 
