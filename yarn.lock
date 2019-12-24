@@ -16,6 +16,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@types/eslint-visitor-keys@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
+
 "@types/json-schema@^7.0.3":
   version "7.0.4"
   resolved "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.4.tgz#38fd73ddfd9b55abb1e1b2ed578cb55bd7b7d339"
@@ -37,6 +41,15 @@
     "@types/json-schema" "^7.0.3"
     "@typescript-eslint/typescript-estree" "2.13.0"
     eslint-scope "^5.0.0"
+
+"@typescript-eslint/parser@^2.13.0":
+  version "2.13.0"
+  resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-2.13.0.tgz#ea1ab394cf9ca17467e3da7f96eca9309f57c326"
+  dependencies:
+    "@types/eslint-visitor-keys" "^1.0.0"
+    "@typescript-eslint/experimental-utils" "2.13.0"
+    "@typescript-eslint/typescript-estree" "2.13.0"
+    eslint-visitor-keys "^1.1.0"
 
 "@typescript-eslint/typescript-estree@2.13.0":
   version "2.13.0"
