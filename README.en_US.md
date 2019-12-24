@@ -38,7 +38,7 @@ $ npx install-peerdeps --dev @dking/eslint-config-typescript
 ```js
 // .eslintrc.js
 module.exports = {
-    extends: [ '@dking/base' ],
+    extends: [ '@dking/typescript' ],
     rules: {
 
     }
