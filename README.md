@@ -49,7 +49,7 @@ module.exports = {
 ## 注意
 > 可以针对不同类型项目使用不同的eslint-config，以获得更好的体验
 
-- 只需要基础配置的项目可以使用 [@dking/eslint-config-typescript](https://github.com/JohnApache/eslint-config-base)
+- 只需要基础配置的项目可以使用 [@dking/eslint-config-base](https://github.com/JohnApache/eslint-config-base)
 - 使用**Typescript**项目可以使用 [@dking/eslint-config-typescript](https://github.com/JohnApache/eslint-config-typescript)
 - 使用**React**项目可以使用 [@dking/eslint-config-react](https://github.com/JohnApache/eslint-config-react)
 - 使用**Typescript**和**React**的项目可以使用 [@dking/eslint-config-typescript-react](https://github.com/JohnApache/eslint-config-typescript-react)

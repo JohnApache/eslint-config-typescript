@@ -49,7 +49,7 @@ module.exports = {
 
 > You can use different eslint config for different types of projects to get a better experience
 
-- Only projects requiring basic configuration can use [@dking/eslint-config-typescript](https://github.com/JohnApache/eslint-config-base)
+- Only projects requiring basic configuration can use [@dking/eslint-config-base](https://github.com/JohnApache/eslint-config-base)
 - Projects using **Typescript** can use [@dking/eslint-config-typescript](https://github.com/JohnApache/eslint-config-typescript)
 - Projects that use **React** can use [@dking/eslint-config-react](https://github.com/JohnApache/eslint-config-react)
 - Projects that use **Typescript** and **React** can use [@dking/eslint-config-typescript-react](https://github.com/JohnApache/eslint-config-typescript-react)
