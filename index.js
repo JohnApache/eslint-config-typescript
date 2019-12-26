@@ -27,5 +27,5 @@ module.exports = {
         './src/import.js',
         './src/typescript.js',
     ].map(require.resolve),
-    rules: {},
+    rules: { 'no-unused-vars': 'off' },
 };

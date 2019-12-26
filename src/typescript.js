@@ -25,6 +25,16 @@ module.exports = {
                 after : true,
             },
         ],
+
+        '@typescript-eslint/no-unused-vars': [
+            'error',
+            {
+                vars              : 'all',
+                args              : 'after-used',
+                ignoreRestSiblings: false,
+                caughtErrors      : 'all',
+            },
+        ],
     },
 };
 
