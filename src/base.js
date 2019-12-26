@@ -116,8 +116,21 @@ module.exports = {
         'no-labels'          : 'error',
         'no-lone-blocks'     : 'error',
         'no-loop-func'       : 'error',
-        'no-magic-numbers'   : 'warn',
-        'no-multi-spaces'    : [
+        'no-magic-numbers'   : [
+            'warn',
+            {
+                ignore: [
+                    0,
+                    1,
+                    2,
+                    -1,
+                    -2,
+                ],
+                ignoreArrayIndexes: true,
+                detectObjects     : false,
+            },
+        ],
+        'no-multi-spaces': [
             'error',
             {
                 ignoreEOLComments: true,
